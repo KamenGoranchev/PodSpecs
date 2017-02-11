@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-zip",
+  "version": "3.1.0",
+  "summary": "Cordova Zip Plugin",
+  "description": "Unzips archived files",
+  "homepage": "https://github.com/MobileChromeApps/cordova-plugin-zip.git",
+  "license": "MIT",
+  "authors": {
+    "MobileChromeApps": ""
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/MobileChromeApps/cordova-plugin-zip.git",
+    "tag": "v3.1.0"
+  },
+  "source_files": "src/ios/**/*.*",
+  "preserve_paths": [
+    "*.md",
+    "docs/**/*.md",
+    "www/*.js",
+    "www/ios/*.js"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "cordova-plugin-file": [">= 2.0.0"] 
+  },
+  "public_header_files": [
+    "src/ios/Common.h",
+    "src/ios/SSZIpArchive.h",
+    "src/ios/ZipPlugin.h"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "libraries": [
+    "z"
+  ]
+}

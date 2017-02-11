@@ -12,7 +12,7 @@
     "ios": "8.0"
   },
   "source": {
-    "git": "https://github.com/Microsoft/cordova-plugin-code-push.git",
+    "git": "https://github.com/Microsoft/cordova-plugin-code-push.git"
   },
   "source_files": "src/ios/*.{h,m}",
   "preserve_paths": [
