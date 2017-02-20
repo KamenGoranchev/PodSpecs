@@ -34,5 +34,8 @@
     "CoreTelephony",
     "CoreSpotlight",
     "MobileCoreServices"
-  ]
+  ],
+  "dependencies": {
+    "Cordova": [">= 4.3.0"] 
+  }
 }
