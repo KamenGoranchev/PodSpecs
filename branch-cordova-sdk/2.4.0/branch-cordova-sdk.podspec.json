@@ -18,7 +18,7 @@
     "src/ios/*.{h,m}",
     "src/ios/dependencies/Fabric/*.{h,m}",
     "src/ios/dependencies/Branch-SDK/*.{h,m}",
-    "src/ios/dependencies/Branch-SDK/Requests//*.{h,m}"
+    "src/ios/dependencies/Branch-SDK/Requests/*.{h,m}"
   ],
   "exclude_files" : "src/ios/AppDelegate+BranchSdk.m",
   "preserve_paths": [
