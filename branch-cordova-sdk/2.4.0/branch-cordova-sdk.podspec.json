@@ -14,7 +14,12 @@
   "source": {
     "git": "https://github.com/BranchMetrics/Cordova-Ionic-PhoneGap-Deferred-Deep-Linking-SDK.git"
   },
-  "source_files": "src/ios/**/*.{h,m}",
+  "source_files": [
+    "src/ios/*.{h,m}",
+    "src/ios/dependencies/Fabric/*.{h,m}",
+    "src/ios/dependencies/Branch-SDK/*.{h,m}",
+    "src/ios/dependencies/Branch-SDK/Requests//*.{h,m}"
+  ],
   "exclude_files" : "src/ios/AppDelegate+BranchSdk.m",
   "preserve_paths": [
     "*.md",
