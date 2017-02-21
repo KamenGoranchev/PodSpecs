@@ -12,12 +12,13 @@
     "ios": "8.0"
   },
   "source": {
-    "path": "./NrgClientSdk"
+    "git": "https://github.com/Cygnecode/rg-client-sdk-ios.git"
   },
-  "source_files": "Source/Classes/**/*",
-  "resources" : "Source/Assets/*",
+  "source_files": "NrgClientSdk/Source/Classes/**/*",
+  "resources" : "NrgClientSdk/Source/Assets/*",
   "requires_arc": true,
   "dependencies": {
-    "cordova-plugin-code-push": [">= 1.0.0"]
+    "cordova-plugin-code-push": [">= 1.0.0"],
+    "cordova-plugin-nrg": [">= 0.0.1"]
   }
 }
