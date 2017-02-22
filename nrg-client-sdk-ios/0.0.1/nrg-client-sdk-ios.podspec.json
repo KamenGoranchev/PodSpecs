@@ -19,6 +19,7 @@
   "requires_arc": true,
   "dependencies": {
     "cordova-plugin-code-push": [">= 1.0.0"],
-    "cordova-plugin-nrg": [">= 0.0.1"]
+    "cordova-plugin-nrg": [">= 0.0.1"],
+    "cordova-fabric-plugin": [">= 1.1.7"]
   }
 }
