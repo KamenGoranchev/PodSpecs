@@ -1,8 +1,8 @@
 {
-  "name": "cordova-plugin-nrg",
+  "name": "nrg-client-sdk-common-ios",
   "version": "0.0.1",
-  "summary": "Cordova NRG Plugin",
-  "description": "Comunication inteface between nrg web platform and the native sdk",
+  "summary": "Cordova NRG Common Plugin",
+  "description": "Common interfaces used by NRG SDK and other plugins",
   "homepage": "http://www.dcodeit.com",
   "license": "MIT",
   "authors": {
@@ -14,16 +14,12 @@
   "source": {
     "git": "https://github.com/Cygnecode/rg-client-sdk-ios.git"
   },
-  "source_files" : "cordova-plugin-nrg/src/ios/**/*.*",
+  "source_files" : "nrg-client-sdk-common-ios/src/ios/**/*.*",
   "preserve_paths": [
     "*.md",
     "docs/**/*.md",
     "www/*.js",
     "www/ios/*.js"
   ],
-  "requires_arc": true,
-  "dependencies": {
-    "Cordova": [">= 4.3.0"],
-    "nrg-client-sdk-common-ios" : [">= 0.0.1"]
-  }
+  "requires_arc": true
 }
