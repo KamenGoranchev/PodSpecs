@@ -1,0 +1,41 @@
+{
+  "name": "cordova-fabric-plugin",
+  "version": "1.1.7",
+  "summary": "Cordova Fabric.io Plugin",
+  "description": "Cordova Fabric.io Plugin.",
+  "homepage": "https://fabric.io",
+  "license": "Apache 2.0",
+  "authors": {
+    "Branch": ""
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/sarriaroman/FabricPlugin.git",
+    "commit": "e2aca0f4bcc0cbd5b965faa7b0f6ca2974c3a039"
+  },
+  "source_files" : "src/ios/FabricPlugin.m",
+  "vendored_frameworks" : [
+    "lib/ios/Crashlytics.framework",
+    "lib/ios/Fabric.framework"
+  ],
+  "preserve_paths": [
+    "*.md",
+    "docs/**/*.md",
+    "www/*.js",
+    "www/ios/*.js"
+  ],
+  "requires_arc": true,
+  "frameworks": [
+    "Security",
+    "SystemConfiguration"
+  ],
+  "dependencies": {
+    "Cordova": [">= 4.3.0"]
+  },
+  "libraries": [
+    "z",
+    "c++"
+  ]
+}
