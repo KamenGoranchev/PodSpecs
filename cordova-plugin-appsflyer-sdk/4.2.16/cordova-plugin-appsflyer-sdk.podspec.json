@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-appsflyer-sdk",
+  "version": "4.2.16",
+  "summary": "AppsFlyer SDK Plugin",
+  "description": "AppsFlyer SDK Plugin.",
+  "homepage": "https://www.appsflyer.com/",
+  "license": "MIT",
+  "authors": {
+    "AppsFlyer": ""
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/AppsFlyerSDK/cordova-plugin-appsflyer-sdk.git"
+  },
+  "source_files": [
+    "src/ios/**/*.*"
+  ],
+  "preserve_paths": [
+    "*.md",
+    "docs/**/*.md",
+    "www/*.js",
+    "www/ios/*.js"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "Cordova": [">= 4.3.0"]
+  }
+}
