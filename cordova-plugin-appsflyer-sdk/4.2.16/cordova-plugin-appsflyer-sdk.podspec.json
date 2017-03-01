@@ -15,7 +15,10 @@
     "git": "https://github.com/AppsFlyerSDK/cordova-plugin-appsflyer-sdk.git"
   },
   "source_files": [
-    "src/ios/**/*.*"
+    "src/ios/*.{h,m}"
+  ],
+  "vendored_frameworks" : [
+    "src/ios/libAppsFlyerLib.a"
   ],
   "preserve_paths": [
     "*.md",
