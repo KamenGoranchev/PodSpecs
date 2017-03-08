@@ -21,6 +21,9 @@
   "vendored_frameworks" : [
     "src/ios/Firebase/**/*.framework"
   ],
+  "exclude_files" : [
+    "src/ios/Firebase/RemoteConfig/GoogleIPhoneUtilities.framework"
+  ],
   "resources" : "src/ios/GoogleService-Info.plist",
   "preserve_paths": [
     "*.md",
