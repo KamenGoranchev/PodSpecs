@@ -15,8 +15,13 @@
     "git": "https://github.com/arnesson/cordova-plugin-firebase"
   },
   "source_files": [
-    "src/ios/**/*.*"
+    "src/ios/*.{h,m}",
+    "src/ios/Firebase/Firebase.h"
   ],
+  "vendored_frameworks" : [
+    "src/ios/Firebase/**/*.framework"
+  ],
+  "resources" : "src/ios/GoogleService-Info.plist",
   "preserve_paths": [
     "*.md",
     "docs/**/*.md",
