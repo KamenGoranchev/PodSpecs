@@ -15,14 +15,7 @@
     "git": "https://github.com/arnesson/cordova-plugin-firebase"
   },
   "source_files": [
-    "src/ios/*.{h,m}",
-    "src/ios/Firebase/Firebase.h"
-  ],
-  "vendored_frameworks" : [
-    "src/ios/Firebase/**/*.framework"
-  ],
-  "exclude_files" : [
-    "src/ios/Firebase/RemoteConfig"
+    "src/ios/*.{h,m}"
   ],
   "resources" : "src/ios/GoogleService-Info.plist",
   "preserve_paths": [
@@ -33,6 +26,7 @@
   ],
   "requires_arc": true,
   "dependencies": {
-    "Cordova": [">= 4.3.0"]
+    "Cordova": [">= 4.3.0"],
+    "Firebase": [">= 3.0.0 "]
   }
 }
