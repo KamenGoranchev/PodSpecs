@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-firebase",
+  "version": "0.1.19",
+  "summary": "This plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project",
+  "description": "AppsFlyer SDK Plugin.",
+  "homepage": "https://www.appsflyer.com/",
+  "license": "MIT",
+  "authors": {
+    "MIT": "Robert Arnesson"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/arnesson/cordova-plugin-firebase"
+  },
+  "source_files": [
+    "src/ios/**/*.*"
+  ],
+  "preserve_paths": [
+    "*.md",
+    "docs/**/*.md",
+    "www/*.js",
+    "www/ios/*.js"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "Cordova": [">= 4.3.0"]
+  }
+}
