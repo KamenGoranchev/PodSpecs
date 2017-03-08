@@ -22,7 +22,7 @@
     "src/ios/Firebase/**/*.framework"
   ],
   "exclude_files" : [
-    "src/ios/Firebase/RemoteConfig/GoogleIPhoneUtilities.framework"
+    "src/ios/Firebase/RemoteConfig"
   ],
   "resources" : "src/ios/GoogleService-Info.plist",
   "preserve_paths": [
