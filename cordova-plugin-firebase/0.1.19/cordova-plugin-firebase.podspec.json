@@ -27,6 +27,9 @@
   "requires_arc": true,
   "dependencies": {
     "Cordova": [">= 4.3.0"],
-    "Firebase": [">= 3.0.0 "]
+    "Firebase/Core": [">= 3.6.0 "],
+    "Firebase/Messaging": [">= 3.6.0 "],
+    "Firebase/RemoteConfig": [">= 3.6.0 "],
+    "Firebase/Crash": [">= 3.6.0 "]
   }
 }
