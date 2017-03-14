@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-keyboard",
+  "version": "0.1.19",
+  "summary": "Keyboard Plugin for Cordova",
+  "description": "Keyboard Plugin for Cordova",
+  "homepage": "https://github.com/cjpearson/cordova-plugin-keyboard",
+  "license": "MIT",
+  "authors": {
+    "MIT": "Connor Pearson"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/cjpearson/cordova-plugin-keyboard"
+  },
+  "source_files": [
+    "src/ios/*.{h,m}"
+  ],
+  "preserve_paths": [
+    "*.md",
+    "docs/**/*.md",
+    "www/*.js",
+    "www/ios/*.js"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "Cordova": [">= 4.3.0"]
+  }
+}
